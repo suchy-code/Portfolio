@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14e7ecde1d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>SUCHY</title>
+</head>
+<body>
+    <div id="inicio">
+        <div class="container">
+            <nav>
+                <h1 id="logo">SUCHY</h1>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Servicos</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
+                    <li><a href="#contatco">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="inicio-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Suchy</span> <br> Zucule from Mocambique</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------------about---------------------------- -->
+    <div id="sobre">
+        <div class="container">
+            <div class="linha">
+                <div class="sobre-col-1">
+                    <img src="images/Imagem 2.jpg" class="imagem-flutuante">
+                </div>
+                <div class="sobre-col-2">
+                    <h1 class="sub-titulo">About Me</h1>
+                    <p>
+                        Olá! Meu nome é Suchy, e sou um desenvolvedor front-end apaixonado por transformar ideias em experiências digitais cativantes.
+                        Com habilidades em HTML, CSS e JavaScript, meu foco é criar interfaces modernas, funcionais e intuitivas que proporcionem uma ótima experiência ao usuário.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End Development</span><br>Creating responsive and interactive user interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Back-End Development</span><br>Developing server-side logic and APIs</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Full-Stack Development Training at ITC</li>
+                            <li><span>2023 - 2024</span><br>Front-End Developer at Stadard Bank</li>
+                            <li><span>2021 - 2023</span><br>Back-End Developer at Vodacom</li>
+                            <li><span>2020 - 2021</span><br>Junior Web Developer at Vodacom</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Curso de HTML e CSS com Gustavo Guanabara</li>
+                            <li><span>2023</span><br>Instituto de Transportes e comunicacoes</li>
+                            <li><span>2022</span><br>Curso de Python da Alura</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------------services---------------------------- -->
+<div id="servicos">
+    <div class="container">
+        <h1 class="sub-titulo">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End Development</h2>
+                <p>Desenvolvo interfaces modernas, responsivas e dinâmicas, que garantem uma experiência agradável para os usuários.
+                Meus projetos são adaptáveis a dispositivos móveis, tablets e desktops.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-terminal"></i>
+                <h2>Back-End Development</h2>
+                <p>Crio sistemas robustos para o lado do servidor, garantindo segurança e escalabilidade.
+                    Trabalho com APIs e banco de dados para atender às necessidades específicas do projeto.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Management</h2>
+                <p>Projeto e gerencio bancos de dados otimizados para armazenar dados de forma eficiente e segura.
+                    Garanto alta performance e consistência no acesso às informações.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------Portfolio---------------------------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titulo">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://html.design/wp-content/uploads/2019/12/Entertaint-600x800.png">
+                <div class="layer">
+                    <h3>Landing Page</h3>
+                    <p>Um design moderno e responsivo criado para uma landing page de alta conversão. O foco foi a experiência do usuário e a otimização para dispositivos móveis.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://html.design/wp-content/uploads/2021/11/famms-600x800.png">
+                <div class="layer">
+                    <h3>E-commerce</h3>
+                    <p>Loja virtual desenvolvida com foco em usabilidade e segurança. Integrei um sistema de pagamento e otimizei o carregamento.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://i.pinimg.com/originals/94/68/8e/94688e37654cc8f6ce4461e6307693e2.png">
+                <div class="layer">
+                    <h3>Administrative Dashboard</h3>
+                    <p>Criação de um painel administrativo com gráficos e tabelas interativas. A aplicação utiliza integração com API e banco de dados.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- ----------------------------contact---------------------------- -->
+  <div id="contatco">
+    <div class="container">
+        <div class="linha">
+            <div class="contact-left">
+                <h1 class="sub-titulo">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>suchyailton@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+258 877 756 031</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="#" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyrigth">
+        <p>Copyright &copy; Suchy | Front-End Developer.</p>
+    </div>
+  </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+</body>
+</html>
