@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #080808;
     color: white;
@@ -24,10 +28,18 @@ body {
 }
 
 nav {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1rem 10%;
+    background-color: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 
 /* h1#logo {width: 140px;} */
@@ -200,7 +212,6 @@ nav ul li a:hover::after {
 .services-list div:hover {
     background-color: #2a77c3;
     transform: translateY(-10px);
-
 }
 
 
@@ -299,6 +310,17 @@ nav ul li a:hover::after {
 
 .contact-right {
     flex: 60%;
+}
+
+.form-row-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.form-row-2 > input {
+    width: 50%;
 }
 
 .contact-left p {
