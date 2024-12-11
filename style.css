@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif ;
+    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
 }
 
@@ -37,17 +37,15 @@ nav {
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem 10%;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
 
-/* h1#logo {width: 140px;} */
-
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;  
+    margin: 10px 20px;
 }
 
 nav ul li a {
@@ -112,7 +110,7 @@ nav ul li a:hover::after {
     flex-basis: 60%;
 }
 
-.sobre-col-2 p{
+.sobre-col-2 p {
     text-align: justify;
 }
 
@@ -151,13 +149,13 @@ nav ul li a:hover::after {
 
 }
 
-.tab-contents ul li{
+.tab-contents ul li {
     list-style: none;
     margin: 10px 0;
 }
 
 .tab-contents ul li span {
-    color: #235a98 ;
+    color: #235a98;
     font-size: 14px
 }
 
@@ -218,7 +216,8 @@ nav ul li a:hover::after {
 
 /* ----------------------------Portfolio--------------------------- */
 #portfolio {
-    padding: 50px 0;; 
+    padding: 50px 0;
+    ;
 }
 
 .work-list {
@@ -244,8 +243,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient( rgba(0,0,0,0.6), #2a77c3
-    );
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #2a77c3);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -319,7 +317,7 @@ nav ul li a:hover::after {
     gap: 20px;
 }
 
-.form-row-2 > input {
+.form-row-2>input {
     width: 50%;
 }
 
@@ -360,7 +358,8 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     border: 0;
     outline: none;
