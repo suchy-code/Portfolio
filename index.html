@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="style_768xp.css">
     <script src="https://kit.fontawesome.com/14e7ecde1d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
     <title>SUCHY</title>
 </head>
+
 <body>
     <!-- ----------------------------Home---------------------------- -->
     <div id="inicio">
         <div class="container">
-            <nav>
-                <h1 id="logo">SUCHY</h1>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#servicos">Servicos</a></li>
-                    <li><a href="#portfolio">Projetos</a></li>
-                    <li><a href="#contatco">Contacto</a></li>
-                </ul>
-            </nav>
+            <input type="checkbox" name="menu" id="menu" checked>
+            <div class="menu-barra">
+                <div class="menu">
+                        <label for="menu">
+                            <i class="fa-solid fa-bars"></i>
+                            <i class="fa-solid fa-xmark"></i>
+                        </label>
+                </div>
+                <nav>
+                    <h1 id="logo">SUCHY</h1>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Servicos</a></li>
+                        <li><a href="#portfolio">Projetos</a></li>
+                        <li><a href="#contatco">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="inicio-text">
                 <p>Web Developer</p>
                 <h1>Hi, I'm <span>Suchy</span> <br> Zucule from Mocambique</h1>
@@ -33,7 +49,7 @@
         </div>
     </div>
 
-<!-- ----------------------------about---------------------------- -->
+    <!-- ----------------------------about---------------------------- -->
     <div id="sobre">
         <div class="container">
             <div class="linha">
@@ -43,8 +59,10 @@
                 <div class="sobre-col-2">
                     <h1 class="sub-titulo">About Me</h1>
                     <p>
-                        Olá! Meu nome é Suchy, e sou um desenvolvedor front-end apaixonado por transformar ideias em experiências digitais cativantes.
-                        Com habilidades em HTML, CSS e JavaScript, meu foco é criar interfaces modernas, funcionais e intuitivas que proporcionem uma ótima experiência ao usuário.
+                        Olá! Meu nome é Suchy, e sou um desenvolvedor front-end apaixonado por transformar ideias em
+                        experiências digitais cativantes.
+                        Com habilidades em HTML, CSS e JavaScript, meu foco é criar interfaces modernas, funcionais e
+                        intuitivas que proporcionem uma ótima experiência ao usuário.
                     </p>
 
                     <div class="tab-titles">
@@ -54,7 +72,8 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Front-End Development</span><br>Creating responsive and interactive user interfaces</li>
+                            <li><span>Front-End Development</span><br>Creating responsive and interactive user
+                                interfaces</li>
                             <li><span>Web Development</span><br>Web app Development</li>
                             <li><span>Back-End Development</span><br>Developing server-side logic and APIs</li>
                         </ul>
@@ -79,116 +98,121 @@
         </div>
     </div>
 
-<!-- ----------------------------services---------------------------- -->
-<div id="servicos">
-    <div class="container">
-        <h1 class="sub-titulo">My services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Front-End Development</h2>
-                <p>Desenvolvo interfaces modernas, responsivas e dinâmicas, que garantem uma experiência agradável para os usuários.
-                Meus projetos são adaptáveis a dispositivos móveis, tablets e desktops.</p>
-                <a href="#">Saber mais</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-terminal"></i>
-                <h2>Back-End Development</h2>
-                <p>Crio sistemas robustos para o lado do servidor, garantindo segurança e escalabilidade.
-                    Trabalho com APIs e banco de dados para atender às necessidades específicas do projeto.</p>
-                <a href="#">Saber mais</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-database"></i>
-                <h2>Database Management</h2>
-                <p>Projeto e gerencio bancos de dados otimizados para armazenar dados de forma eficiente e segura.
-                    Garanto alta performance e consistência no acesso às informações.</p>
-                <a href="#">Saber mais</a>
+    <!-- ----------------------------services---------------------------- -->
+    <div id="servicos">
+        <div class="container">
+            <h1 class="sub-titulo">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p>Desenvolvo interfaces modernas, responsivas e dinâmicas, que garantem uma experiência agradável
+                        para os usuários.
+                        Meus projetos são adaptáveis a dispositivos móveis, tablets e desktops.</p>
+                    <a href="#">Saber mais</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Back-End Development</h2>
+                    <p>Crio sistemas robustos para o lado do servidor, garantindo segurança e escalabilidade.
+                        Trabalho com APIs e banco de dados para atender às necessidades específicas do projeto.</p>
+                    <a href="#">Saber mais</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>Projeto e gerencio bancos de dados otimizados para armazenar dados de forma eficiente e segura.
+                        Garanto alta performance e consistência no acesso às informações.</p>
+                    <a href="#">Saber mais</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- ----------------------------Portfolio---------------------------- -->
- <div id="portfolio">
-    <div class="container">
-        <h1 class="sub-titulo">Portfolio</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="https://html.design/wp-content/uploads/2019/12/Entertaint-600x800.png">
-                <div class="layer">
-                    <h3>Landing Page</h3>
-                    <p>Um design moderno e responsivo criado para uma landing page de alta conversão. O foco foi a experiência do usuário e a otimização para dispositivos móveis.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    <!-- ----------------------------Portfolio---------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titulo">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://html.design/wp-content/uploads/2019/12/Entertaint-600x800.png">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <p>Um design moderno e responsivo criado para uma landing page de alta conversão. O foco foi a
+                            experiência do usuário e a otimização para dispositivos móveis.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://html.design/wp-content/uploads/2021/11/famms-600x800.png">
+                    <div class="layer">
+                        <h3>E-commerce</h3>
+                        <p>Loja virtual desenvolvida com foco em usabilidade e segurança. Integrei um sistema de
+                            pagamento e otimizei o carregamento.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://i.pinimg.com/originals/94/68/8e/94688e37654cc8f6ce4461e6307693e2.png">
+                    <div class="layer">
+                        <h3>Administrative Dashboard</h3>
+                        <p>Criação de um painel administrativo com gráficos e tabelas interativas. A aplicação utiliza
+                            integração com API e banco de dados.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="work">
-                <img src="https://html.design/wp-content/uploads/2021/11/famms-600x800.png">
-                <div class="layer">
-                    <h3>E-commerce</h3>
-                    <p>Loja virtual desenvolvida com foco em usabilidade e segurança. Integrei um sistema de pagamento e otimizei o carregamento.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="https://i.pinimg.com/originals/94/68/8e/94688e37654cc8f6ce4461e6307693e2.png">
-                <div class="layer">
-                    <h3>Administrative Dashboard</h3>
-                    <p>Criação de um painel administrativo com gráficos e tabelas interativas. A aplicação utiliza integração com API e banco de dados.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
+            <a href="#" class="btn">See more</a>
         </div>
-        <a href="#" class="btn">See more</a>
     </div>
- </div>
 
- <!-- ----------------------------contact---------------------------- -->
-  <div id="contatco">
-    <div class="container">
-        <div class="linha">
-            <div class="contact-left">
-                <h1 class="sub-titulo">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>suchyailton@gmail.com</p>
-                <p><i class="fa-solid fa-square-phone"></i>+258 877 756 031</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/profile.php?id=100076924201153"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://x.com/ZuculeF48206"><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href="https://www.instagram.com/suchy_a_z/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/suchy-zucule-094948260/"><i class="fa-brands fa-linkedin"></i></a>
+    <!-- ----------------------------contact---------------------------- -->
+    <div id="contatco">
+        <div class="container">
+            <div class="linha">
+                <div class="contact-left">
+                    <h1 class="sub-titulo">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>suchyailton@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+258 877 756 031</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100076924201153"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/ZuculeF48206"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/suchy_a_z/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/suchy-zucule-094948260/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="anexos/CV - SUCHY.pdf" download class="btn btn2">Download Cv</a>
                 </div>
-                <a href="anexos/CV - SUCHY.pdf" download class="btn btn2">Download Cv</a>
-            </div>
-            <div class="contact-right">
-                <form>
-                    <div class="form-row-2">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="text" name="Number" placeholder="Your Number" required>
-                    </div>
-                    <div class="form-row-2">
-                        <input type="email" name="email" placeholder="Your email" required>
-                        <input type="text" name="Assunto" placeholder="Subject" required>
-                    </div>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
+                <div class="contact-right">
+                    <form>
+                        <div class="form-row-2">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Number" placeholder="Your Number" required>
+                        </div>
+                        <div class="form-row-2">
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <input type="text" name="Assunto" placeholder="Subject" required>
+                        </div>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
+        <div class="copyrigth">
+            <p>Copyright &copy; Suchy | Front-End Developer.</p>
+        </div>
     </div>
-    <div class="copyrigth">
-        <p>Copyright &copy; Suchy | Front-End Developer.</p>
-    </div>
-  </div>
     <script>
-
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
-        
-        function opentab(tabname){
-            for(tablink of tablinks){
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
@@ -198,4 +222,5 @@
     </script>
 
 </body>
+
 </html>
