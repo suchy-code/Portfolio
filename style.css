@@ -29,6 +29,20 @@ body {
     padding: 10px 10%;
 }
 
+#inicio > .container > input {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .menu-barra {
     top: 0;
     left: 0;
